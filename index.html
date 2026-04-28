@@ -45,11 +45,13 @@
       <input type="submit" value="Submit CoBrowsing disabled" class="form-control input-md sm_cobrowsing_disabled_field">
     </form>
 
+    <script>
     // Remove focus from the hidden Glia tab
     const gliaTab = document.querySelector('.sm-tab-text[aria-hidden="true"]');
     if (gliaTab) {
       gliaTab.setAttribute('tabindex', '-1');
     }
+    </script>
 
   </body>
   
